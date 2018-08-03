@@ -5,10 +5,10 @@
 .column {
     float: left;
     width: 50%;
-    height: 800px;
+    height: 600px;
 }
 .header {
-    height: 180px;
+    height: 150px;
 }
 
 /* Clear floats after the columns */
@@ -17,20 +17,38 @@
     display: table;
     clear: both;
 }
-.myinfo {
+.skills {
     font-size: 40px;
+    /* color: black; */
 }
-.aboutme {
+.projects {
     font-size: 40px;
+    color: white;
 }
 
 .leftcolumn {
     background-color: #FBFAF5;
+    height: 100%
 }
 
 .rightcolumn {
     background-color: rgb(0, 0, 0);
+    min-height: 600px;
+    height: 100%;
 }
+
+.projects {
+    background-color: aqua;
+    height: 295px;
+    width: 295px;
+    border: solid red 1px;
+    /* margin: 2px; */
+}
+
+.project {
+    text-align: center
+}
+
 
 @media screen and (max-width: 600px) {
     .column {
