@@ -1,20 +1,40 @@
-.mynavbar {
-    background-color: azure;
-    font-size: 22px;
+.row {
+    display: flex;
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+    height: 800px;
+}
+.header {
+    height: 180px;
 }
 
-.mynavitem {
-    color: #107C84;  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.myinfo {
+    font-size: 40px;
+}
+.aboutme {
+    font-size: 40px;
 }
 
-.firsthero {
-    background-color: #C7EBE9
+.leftcolumn {
+    background-color: #FBFAF5;
 }
 
-.secondhero {
-    background-color: #107C84;  
+.rightcolumn {
+    background-color: rgb(0, 0, 0);
 }
 
-.thirdhero {
-    background-color: bisque
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
+
