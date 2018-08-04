@@ -2,10 +2,12 @@
     display: flex;
     width: 100%;
 }
-.column {
+.column20 {
     float: left;
-    width: 50%;
-    height: 600px;
+    width: 20%;
+    min-height: 100px;
+    height: 33%;
+    padding: 10px 0px 0px 10px;
 }
 .header {
     height: 150px;
@@ -20,6 +22,12 @@
     display: table;
     clear: both;
 }
+.links {
+    /* display: inline-block; */
+    padding: 0px 5px 0px 0px;
+}
+
+
 .skills {
     font-size: 40px;
     /* color: black; */
@@ -34,9 +42,15 @@
     height: 100%
 }
 
-.rightcolumn {
+.blackcontainer {
     background-color: rgb(0, 0, 0);
     min-height: 600px;
+    height: 100%;
+}
+
+.blackcolumn {
+    background-color: rgb(0, 0, 0);
+    min-height: 550px;
     height: 100%;
 }
 
@@ -50,13 +64,19 @@
 
 .project {
     text-align: center;
-    color: black;
+    color: white;
+    /* object-fit: cover; */
+}
+.fitcover{
+    object-fit: cover;
 }
 
 .projects:hover + .project {
     transform: scale(0.9, 0.9); /** default is 1, scale it to 1.5 */
     opacity: 1;
 }
+
+
 
 
 @media screen and (max-width: 700px) {
