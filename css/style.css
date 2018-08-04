@@ -2,26 +2,17 @@
     display: flex;
     width: 100%;
 }
-.reg-row {
-    width:100%
-}
-.reg-row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 .shortcolumn {
     width: 100%;
     height: 25px;
 }
-/* .shortcolumn:after {
-    clear: both;
-} */
+
 .column20 {
     float: left;
-    width: 20%;
+    /* display: flex; */
+    width: 25%;
     min-height: 100px;
-    height: 33%;
     padding: 10px 0px 10px 10px;
 }
 .header {
@@ -71,7 +62,7 @@
 }
 
 .whiteline {
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 2px solid rgba(253, 253, 253, 0.644);
     display: inline-block;
     line-height: 0.85;
 }
