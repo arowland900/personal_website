@@ -5,6 +5,18 @@
 .reg-row {
     width:100%
 }
+.reg-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.shortcolumn {
+    width: 100%;
+    height: 25px;
+}
+/* .shortcolumn:after {
+    clear: both;
+} */
 .column20 {
     float: left;
     width: 20%;
@@ -14,6 +26,9 @@
 }
 .header {
     height: 150px;
+}
+.links {
+    padding: 0 5px 0 0;
 }
 
 
@@ -33,9 +48,10 @@
 }
 
 
-.centertitle {
-    text-align: center;
+.left-title {
+    text-align: left;
     color: white;
+    padding: 0 0 0 50px;
 }
 
 @media screen and (max-width: 700px) {
