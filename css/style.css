@@ -22,7 +22,7 @@
     width: 20%;
     min-height: 100px;
     height: 33%;
-    padding: 10px 0px 0px 10px;
+    padding: 10px 0px 10px 10px;
 }
 .header {
     height: 150px;
@@ -50,6 +50,8 @@
 
 .left-title {
     text-align: left;
+    font-size: 17px;
+    font: bolder;
     color: white;
     padding: 0 0 0 50px;
 }
@@ -60,3 +62,16 @@
     }
 }
 
+.blue {
+    color: #56DED8
+}
+
+.green {
+    color: #27D97E
+}
+
+.whiteline {
+    border-bottom: 2px solid whitesmoke;
+    display: inline-block;
+    line-height: 0.85;
+}
