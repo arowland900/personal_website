@@ -2,6 +2,9 @@
     display: flex;
     width: 100%;
 }
+.reg-row {
+    width:100%
+}
 .column20 {
     float: left;
     width: 20%;
@@ -12,9 +15,7 @@
 .header {
     height: 150px;
 }
-/* .rightside {
-    float: right;
-} */
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -22,62 +23,20 @@
     display: table;
     clear: both;
 }
-.links {
-    /* display: inline-block; */
-    padding: 0px 5px 0px 0px;
-}
 
-
-.skills {
-    font-size: 40px;
-    /* color: black; */
-}
-.projects {
-    font-size: 40px;
-    color: white;
-}
-
-.leftcolumn {
-    background-color: #FBFAF5;
-    height: 100%
-}
 
 .blackcontainer {
     background-color: rgb(0, 0, 0);
-    min-height: 600px;
+    min-height: 570px;
     height: 100%;
+    padding: 10px;
 }
 
-.blackcolumn {
-    background-color: rgb(0, 0, 0);
-    min-height: 550px;
-    height: 100%;
-}
 
-.projects {
-    background-color: #FBFAF5;
-    height: 295px;
-    width: 295px;
-    border: solid black 1px;
-    /* margin: 2px; */
-}
-
-.project {
+.centertitle {
     text-align: center;
     color: white;
-    /* object-fit: cover; */
 }
-.fitcover{
-    object-fit: cover;
-}
-
-.projects:hover + .project {
-    transform: scale(0.9, 0.9); /** default is 1, scale it to 1.5 */
-    opacity: 1;
-}
-
-
-
 
 @media screen and (max-width: 700px) {
     .column {
