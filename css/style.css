@@ -73,3 +73,7 @@
     display: inline-block;
     line-height: 0.85;
 }
+
+a:hover {
+    color: white;
+}
